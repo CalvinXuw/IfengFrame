@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 刷新View部分缺省配置 -->
+    <string name="common_refresh_pull_down_to_refresh">下拉刷新...</string>
+    <string name="common_refresh_pull_up_to_refresh">上拉加载...</string>
+    <string name="common_refresh_release_to_refresh">释放刷新...</string>
+    <string name="common_refresh_release_to_load">释放加载...</string>
+    <string name="common_refresh_refreshing">正在刷新...</string>
+    <string name="common_refresh_nomore">无可用加载项</string>
+    <string name="common_refresh_loading">正在加载...</string>
+    <string name="common_refresh_load_failed">点击重新加载</string>
+    <string name="common_refresh_last_update">最后更新: </string>
+
+    <!-- request state & list -->
+    <string name="request_state_error">点击重新加载</string>
+    <string name="request_state_empty">暂无相关信息</string>
+
+    <!-- main activity -->
+    <string name="exit_hint">再按一次退出移动V享</string>
+    <string name="exit_crash">很抱歉,程序出现异常,即将退出</string>
+
+    <!-- client update -->
+    <string name="update_title">检测更新</string>
+    <string name="update_update">更新</string>
+    <string name="update_dialog_title">正在更新</string>
+    <string name="update_dialog_message">正在下载更新%1$s</string>
+    <string name="update_failed">更新程序下载失败...</string>
+    <string name="update_version_compare">检测到最新版本%1$s，当前版本为%2$s。</string>
+
+    <!-- sub activitiy -->
+    <string name="title_headline">要闻</string>
+    <string name="title_video">视频</string>
+    <string name="title_lecture">讲堂</string>
+    <string name="title_point">积分</string>
+    <string name="title_pointmarket">移动积分商城</string>
+    <string name="title_club">俱乐部</string>
+    <string name="title_discount">商盟特惠</string>
+
+    <!-- headline activity -->
+    <string name="title_news">资讯</string>
+    <string name="title_photo">图片</string>
+    <string name="title_book">书籍</string>
+    <string name="photo_count">%1$s图</string>
+
+    <!-- location activity -->
+    <string name="title_location">选择地区</string>
+    <string name="section_location">定位省市</string>
+    <string name="section_hot">常用省市</string>
+    <string name="section_all">全部省份</string>
+    <string name="section_location_locationing">正在定位\u2026</string>
+    <string name="section_location_locationfailed">定位失败，点击重试</string>
+
+    <!-- book -->
+    <string name="section_book_local">我的书籍</string>
+    <string name="section_book_remote">精选推荐</string>
+    <string name="book_unknow_author">未知作者</string>
+    <string name="book_parsing">解析中</string>
+    <string name="book_parsing_completed">您的下载的 %1$s 已下载完成，请点击阅读~</string>
+    <string name="book_chapter_format">第%1$s章</string>
+    <string name="book_read_first">当前是第一页</string>
+    <string name="book_read_last">当前是最后一页</string>
+    <string name="book_detail_desc">简介</string>
+    <string name="book_detail_chapter">章节</string>
+    <string name="book_detail_read">阅读</string>
+    <string name="book_detail_download">下载</string>
+    <string name="book_detail_downlaoding">下载中</string>
+    <string name="book_detail_analyse">解析中</string>
+    <string name="book_detail_retry">重试</string>
+
+    <!-- club activity -->
+    <string name="section_club_local">地区俱乐部</string>
+    <string name="section_club_country">全国其他地区俱乐部</string>
+    <string name="section_club_service">会员服务</string>
+    <string name="section_club_lobby">移动贵宾厅</string>
+    <string name="title_service">会员服务</string>
+    <string name="title_lobby">贵宾厅</string>
+    <string name="service_message">2013年，秉承 “尊崇倍至，享我所想” 的服务理念，全球通VIP俱乐部倾力为每一位尊贵的会员搭建沟通的桥梁，真诚希望我们的贴心服务能够为您的工作和生活增添无限的精彩！</string>
+    <string name="lobby_message">贵宾厅的内容，秉承"尊崇倍至，享我所想"服务理念，全球通VIP俱乐部真诚希望我们的贴心服务能够为您的工作和生活增添无限的精彩！</string>
+    <string name="section_club_introduce">俱乐部介绍</string>
+    <string name="section_club_servicetarget">服务对象</string>
+    <string name="section_club_participate">参与方式</string>
+    <string name="section_club_photos">往期活动图片</string>
+
+    <!-- news detail -->
+    <string name="title_newsdetail">资讯</string>
+
+    <!-- comment -->
+    <string name="comment_allcomment">全部评论</string>
+    <string name="comment_newsdetail">资讯内容</string>
+    <string name="comment_handup">提交评论</string>
+    <string name="comment_sending">发送中</string>
+    <string name="comment_sended">已评论</string>
+    <string name="comment_ontheway">您的评论已经在路上~请等待审核通过</string>
+    <string name="comment_failed">暂时无法评论,请稍后再试</string>
+    <string name="comment_count">共%1$s条评论</string>
+    <string name="comment_title_usercomment">用户评论</string>
+    <string name="comment_empty">请输入评论内容</string>
+
+    <!-- lecture -->
+    <string name="lecture_type_notice">预告</string>
+    <string name="lecture_type_ongoing">现场</string>
+    <string name="lecture_type_history">回顾</string>
+    <string name="lecture_pagecount_label">页数</string>
+    <string name="lecture_pagecount">共%1$s页</string>
+    <string name="title_detail">详情</string>
+    <string name="title_comment">用户留言</string>
+    <string name="title_videolist">视频列表</string>
+    <string name="section_lecture_introduce_activity">活动介绍</string>
+    <string name="section_lecture_introduce_guest">嘉宾介绍</string>
+    <string name="section_lecture_acitivty_photo">活动图片</string>
+    <string name="btn_lecture_usercomment">用户留言</string>
+    <string name="btn_lecture_interest">感兴趣%1$s人</string>
+    <string name="btn_lecture_signup">短信报名参加</string>
+    <string name="btn_lecture_readcomment">查看评论</string>
+    <string name="btn_lecture_videoreview">讲堂视频回顾</string>
+    <string name="btn_lecture_requesting">提交中</string>
+    <string name="lecture_interest_success">您已成功关注%1$s活动~</string>
+    <string name="lecture_comment_title_user">用户留言</string>
+    <string name="lecture_comment_title_comment">用户评论</string>
+
+    <!-- topic detail -->
+    <string name="title_topic">专题</string>
+    <string name="title_relative_news">最新消息</string>
+
+    <!-- points detail -->
+    <string name="dialog_title_point">积分详情</string>
+    <string name="gotone_diamond_cost">全球通钻卡用户积分：</string>
+    <string name="gotone_gold_cost">全球通金卡用户积分：</string>
+    <string name="gotone_sliver_cost">全球通银卡用户积分：</string>
+    <string name="title_pointproduct">礼品详情</string>
+    <string name="gotone_cost">全球通积分：</string>
+    <string name="mzone_cost">动感地带M值：</string>
+    <string name="easyown_cost">神州行积分：</string>
+    <string name="exchange_hint">实际积分价格以短信兑换时为准</string>
+    <string name="exchange_message">短信兑换：编辑短信内容发送短信兑换码 %1$s 到 %2$s，可短信兑换此礼品(发送及接收短信免费)</string>
+    <string name="exchange_btn">直接短信兑换</string>
+    <string name="exchange_tag">主要提示</string>
+    <string name="exchange_productdesc">礼品描述</string>
+    <string name="product_id">礼品号码：%1$s</string>
+
+    <!-- common -->
+    <string name="dialog_confirm">确认</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_title">温馨提示</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="more">更多</string>
+    <string name="network_bad">当前的网络似乎不给力</string>
+    <string name="unknow">未知</string>
+
+    <!-- location -->
+    <string name="location_adjust">当前城市与定位城市不一致，是否需要切换？</string>
+
+    <!-- userconfig -->
+    <string name="allow_2g3g_picture">是否允许在2G、3G网络下加载图片</string>
+    <string name="allow_2g3g_picture_message">检测到您当前使用的网络为2G、3G网络，是否继续加载图片？</string>
+    <string name="allow_2g3g_video">是否允许在2G、3G网络下观看视频</string>
+    <string name="allow_2g3g_video_message">检测到您当前使用的网络为2G、3G网络，是否继续观看视频？</string>
+
+    <!-- 关于 -->
+    <string name="title_about">关于</string>
+    <string name="about_content">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020“移动 V 享客户端”是中国移动面向中高端客户提供服务的智能终端客户端软件，具备要闻资讯、图片视频、图书阅读、服务回馈等功能，方便客户随时随地享受中国移动的服务。本客户端所提供的的资讯、图片、视频、图书等内容和信息均由中国移动的合作伙伴提供，各相关合作伙伴依法对其提供的信息承担责任。\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020本客户端提供的信息内容仅供客户个人浏览，不得转发或转其他使用。</string>
+    <string name="about_copyright_cn">中国移动 版权所有</string>
+    <string name="about_copyright_en">Copyright@2013 China Mobile All Right Reserved</string>
+
+    <!-- title bar -->
+    <string name="close">关闭</string>
+    <string name="search">搜索</string>
+    <string name="titlebar_cancel">取消</string>
+    <string name="titlebar_help">帮助</string>
+    <string name="titlebar_feedback">意见反馈</string>
+    <string name="titlebar_refresh">刷新</string>
+    <string name="titlebar_back">返回</string>
+
+    <!-- for download -->
+    <string name="download_title">"下载历史记录"</string>
+    <string name="download_unknown_filename">"&lt;未知&gt;"</string>
+    <string name="download_menu_open">"打开"</string>
+    <string name="download_menu_clear">"从列表中清除"</string>
+    <string name="download_menu_delete">"删除"</string>
+    <string name="download_menu_cancel">"取消下载"</string>
+    <string name="download_menu_cancel_all">"取消所有下载"</string>
+    <string name="download_cancel_dlg_title">"取消下载"</string>
+    <string name="download_cancel_dlg_msg">"所有 %d 项下载都会取消并从下载历史记录中清除。"</string>
+    <string name="download_delete_file">"文件将被删除"</string>
+    <string name="download_file_error_dlg_title">"没有存储空间"</string>
+    <string name="download_file_error_dlg_msg">"无法下载%s。"\n"请释放部分手机空间，然后重试。"</string>
+    <string name="download_failed_generic_dlg_title">"下载失败"</string>
+    <string name="download_no_sdcard_dlg_title">"无 SD 卡"</string>
+    <string name="download_no_sdcard_dlg_msg">"需要有 SD 卡才能下载%s。"</string>
+    <string name="download_sdcard_busy_dlg_title">"SD 卡不可用"</string>
+    <string name="download_sdcard_busy_dlg_msg">"SD 卡正忙。要允许下载，请在通知中选择“关闭 USB 存储”。"</string>
+    <string name="download_no_application_title">"无法打开文件"</string>
+    <string name="no_downloads">"下载历史记录为空。"</string>
+    <string name="download_error">"下载不成功。"</string>
+    <string name="download_success">"下载完成。"</string>
+    <string name="download_begin">"开始下载"</string>
+    <string name="download_running">正在下载&#8230;</string>
+    <string name="download_pending">正在开始下载&#8230;</string>
+    <string name="download_paused">已暂停下载</string>
+    <string name="download_pending_network">正在等待数据连接&#8230;</string>
+    <string name="download_running_paused">正在等待数据连接&#8230;</string>
+    <string name="download_canceled">"下载已取消。"</string>
+    <string name="download_not_acceptable">"无法下载，此手机不支持此内容。"</string>
+    <string name="download_file_error">"无法完成下载，存储空间不足。"</string>
+    <string name="download_length_required">"无法下载，因为无法确定该下载项的大小。"</string>
+    <string name="download_precondition_failed">"下载中断，无法重新开始。"</string>
+    <string name="retry">"重试"</string>
+    <string name="cancel">"取消"</string>
+    <string name="pause">"暂停"</string>
+    <string name="resume">"继续"</string>
+    <string name="ok">"确定"</string>
+    <string name="button_queue_for_wifi">"排队"</string>
+    <string name="wifi_required_title">"文件太大，不适于通过移动网络下载"</string>
+    <string name="wifi_required_body">"您不能从该移动网络下载一个大小为%1$s的文件。下次连接到 Wi-Fi 网络时，可触摸%1$s下载此文件。"</string>
+    <string name="wifi_recommended_title">"加入 Wi-Fi 下载队列？"</string>
+    <string name="wifi_recommended_body">"从该移动网络下载这个大小为 %1$s的文件可能会耗尽电池电量，还要向运营商支付额外的费用。下次连接到 Wi-Fi 网络时，可触摸%2$s下载此文件。"</string>
+    <string name="button_cancel_download">"取消"</string>
+    <string name="button_start_now">"立即开始"</string>
+    <string name="deselect_all">"清除所选项"</string>
+    <string name="download_unknown_title">"&lt;未命名&gt;"</string>
+    <string name="notification_need_wifi_for_size">"此大小的文件需要通过 Wi-Fi 下载"</string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" 还有 %d 项"</string>
+    <string name="notification_download_complete">"下载完成"</string>
+    <string name="notification_download_failed">"下载失败,请点击重试"</string>
+    <string name="missing_title">"&lt;未知&gt;"</string>
+    <string name="download_queued">"已加入队列"</string>
+    <string name="download_menu_sort_by_size">"按大小排序"</string>
+    <string name="download_menu_sort_by_date">"按时间排序"</string>
+    <string name="dialog_file_missing_body">"未找到已下载的文件。"</string>
+    <string name="dialog_title_queued_body">"文件暂时不可用"</string>
+    <string name="dialog_queued_body">"该文件已加入队列，供以后下载。"</string>
+    <string name="keep_queued_download">"保留"</string>
+    <string name="remove_download">"删除"</string>
+    <string name="delete_download">"删除"</string>
+    <string name="dialog_file_already_exists">"无法下载，目标文件已存在。"</string>
+    <string name="dialog_insufficient_space_on_external">"无法完成下载，sd卡空间不足。"</string>
+    <string name="dialog_insufficient_space_on_cache">"无法完成下载，内部下载存储器的空间不足。"</string>
+    <string name="dialog_media_not_found">"无法完成下载，sd卡不可用。"</string>
+    <string name="dialog_cannot_resume">"下载中断，无法继续进行。"</string>
+    <string name="dialog_failed_body">"该下载失败。"</string>
+    <string name="dialog_title_not_available">"文件不可用"</string>
+    <string name="retry_download">"重试"</string>
+    <string name="cancel_running_download">"取消"</string>
+    <string name="doing_download">正在添加下载任务...</string>
+    <string name="no_sd_card_will_download_to_mem">无SD卡，将为你下载到手机内存</string>
+    <string name="no_space_on_sd_card_will_download_to_mem">SD卡空间不足，将为你下载到手机内存</string>
+    <string name="no_space_on_phone_dialog_message">手机存储空间不足,建议您释放空间后再下载</string>
+
+    <!-- for 应用管理 -->
+    <string name="appmanage_update_frame">"可更新"</string>
+    <string name="appmanage_installed_frame">"已安装"</string>
+    <string name="appmanage_more_frame">"更多功能"</string>
+    <string name="appmanage_sort_by_name">"应用名称"</string>
+    <string name="appmanage_sort_by_date">"更新时间"</string>
+    <string name="appmanage_sort_by_size">"应用大小"</string>
+    <string name="appmanage_sort_by_frequency">"使用频率"</string>
+    <string name="appmanage_popwindow_item_open">"打开"</string>
+    <string name="appmanage_popwindow_item_uninstall">"卸载"</string>
+    <string name="appmanage_popwindow_item_appsettings">"管理"</string>
+    <string name="appmanage_popwindow_item_move">"搬家"</string>
+    <string name="appmanage_can_not_open_toast">"该应用无法打开"</string>
+    <string name="appmanage_non_apps">"暂无下载和更新，再去逛逛？"</string>
+    <string name="appmanage_non_apps_new">"暂无检测到更新内容"</string>
+    <string name="appmanage_installed_on_sdcard">"安装在SD卡"</string>
+    <string name="appmanage_installed_on_phone">"安装在手机"</string>
+    <string name="appmanage_check_update">"检查更新"</string>
+    <string name="appmanage_check_none">"没有检测到更新内容"</string>
+    <string name="appmanage_check_num">"为您检测到%s个应用可更新"</string>
+    <string name="appmanage_check_move">"可搬家"</string>
+
+    <!-- for 设置 -->
+    <string name="preference">设置</string>
+    <string name="default_uname">已登录</string>
+    <string name="pushsettings">云推送</string>
+    <string name="pushservicetitle">云推送</string>
+    <string name="pushserviceeducation">了解云推送</string>
+    <string name="pushservicesummary">登录后即可享受云推送功能</string>
+    <string name="enabledpushservice">已开启云推送</string>
+    <string name="disabledpushservice">已关闭云推送</string>
+    <string name="normal_settings">常规设置</string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="updatablenotification">提醒</string>
+    <string name="show_pictures">显示图标和截图</string>
+    <string name="appsupdatable_tips">软件更新提示</string>
+    <string name="autoinstalltitle">打开安装包</string>
+    <string name="autoinstall_tips">下载完立即进行安装</string>
+    <string name="autodelete_tips">安装后删除安装包</string>
+    <string name="clearing_cached_apk">正在删除，请稍候……</string>
+    <string name="silent_install_warn">使用此功能需要root权限，若您安装了root权限管理工具，请在弹出的权限控制对话框中选择“允许”，并勾选“记住”。</string>
+    <string name="silent_install_summary_needroot">安装时无需确认</string>
+    <string name="silent_install_summary_requestroot">正在请求root权限</string>
+    <string name="silent_install_summary_requestroot_fail">无法取得root权限</string>
+    <string name="silent_install_dialog_title">注意</string>
+    <string name="silent_install_title">ROOT用户快速安装</string>
+    <string name="request_silent_install_dialog_title">快速安装</string>
+    <string name="request_silent_install_dialog_content">检测到您可能是root用户，开启root后无需确认即可快速安装，是否立即开启？</string>
+    <string name="request_silent_install_dialog_enable">开启</string>
+    <string name="request_silent_install_dialog_later">以后再说</string>
+    <string name="request_silent_install_toast_enable_in_settings">在设置页面可以开启快速安装</string>
+    <string name="request_silent_install_toast_reminding">请勾选”记住“并点击允许来完成开启</string>
+    <string name="other">其它</string>
+    <string name="checkupdate">升级检查</string>
+    <string name="help">使用攻略</string>
+    <string name="about">关于</string>
+    <string name="aboutmessage">\t 发布日期：%1$s \n\t  版本信息：%2$s \n\t   构建版本：%3$s \n\t  ©2013 Baidu,Inc</string>
+    <string name="enable_push_dialog_title">云推送</string>
+    <string name="enable_push_dialog_message">登录后才可开启云推送功能，是否立即登录？</string>
+    <string name="enable_push_dialog_login">登录</string>
+    <string name="enable_push_dialog_cancel">取消</string>
+    <string name="clear_cached_apk">删除已下载安装包</string>
+    <string name="clear_cached_apk_dialog_message">是否删除所有已下载的应用安装包？</string>
+    <string name="clear_cached_apk_dialog_title">确认删除</string>
+    <string name="clear_cached_apk_success">已全部删除</string>
+    <string name="rotate_screen_key">rotate_screen_setting</string>
+    <string name="rotate_screen_title">竖屏锁定</string>
+    <string name="wifi_download_setting_key">wifi_download_settings</string>
+    <string name="wifi_download_setting_title">仅在wifi网络下载</string>
+    <string name="silent_update_setting_title">wifi网络自动更新应用</string>
+    <string name="silent_update_setting_summary_disable">开启“仅在wifi网络下载”即可使用该功能</string>
+    <string name="silent_update_setting_summary_enable">请点击选择允许自动更新的应用</string>
+
+    <!-- for 退出应用 -->
+    <string name="quitmessage">确认退出应用？</string>
+    <string name="quit_confirm">退出</string>
+    <string name="cancel_confirm">取消</string>
+    <string name="press_again_to_quit">再按一次返回键退出程序</string>
+
+    <!-- for 创建快捷方式 -->
+    <string name="create_shotcut">桌面快捷方式</string>
+    <string name="create_confirm">确定</string>
+    <string name="create_cancel">取消</string>
+    <string name="create_message">是否创建桌面快捷方式？</string>
+
+    <!-- for 用户教育 -->
+    <string name="tips_for_titlebar">点击标题区域可跳转到页首</string>
+    <string name="user_education_finished">您可以在设置中重新观看云推送介绍</string>
+    <string name="user_guide_new">new</string>
+
+    <!-- for 客户端升级 -->
+    <string name="already_the_newest">当前为最新版本</string>
+    <string name="network_not_aviliable">当前网络不可用</string>
+    <string name="version_update_title">版本更新</string>
+    <string name="version_update_confirm">更新</string>
+    <string name="version_update_cancel">稍后</string>
+    <string name="http_status_failed">网络堵车，请稍后再试</string>
+    <string name="version_update_get_info_error">获取数据失败</string>
+    <string name="ignore_update">忽略此版本的更新</string>
+    <string name="update_dialog_close">退出</string>
+    <string name="update_progress_cancel">取消</string>
+    <string name="download_percent">正在下载更新，请稍等…%d</string>
+    <string name="download_waiting">等待更新中&#8230;</string>
+    <string name="update_info_not_auto">"发现新版本%s是否现在更新？"</string>
+    <string name="update_info_auto">"您好，有新版本发布啦，是否立即更新？"</string>
+    <string name="version_info">版本信息</string>
+    <string name="version_update_ignored">已忽略此次更新，您依然可以在设置中选择手动更新</string>
+    <string name="update_download_error">更新失败，请检查网络并重试…</string>
+    <string name="check_for_update_progress_text">发送请求..</string>
+    <string name="client_update_notification_title">百度手机助手有更新版本</string>
+    <string name="client_update_notification_text">最新版本%s,点击查看</string>
+
+    <!-- 下载管理 -->
+    <string name="download_manager_title">下载管理</string>
+    <string name="download_manager_non_apps">还没有下载任务</string>
+    <string name="drop_dowm">下拉刷新</string>
+    <string name="release_update">松开刷新</string>
+    <string name="loading">正在更新列表...</string>
+    <string name="seen_more">更多</string>
+    <string name="updateing_list">正在更新列表...</string>
+    <string name="last_update_time">上次更新：%1s</string>
+    <string name="updateall_info_size">全部更新需%1$s只需%2$s</string>
+    <string name="ignore_cancle">取消忽略</string>
+    <!-- 要闻 -->
+    <string name="headline_tital">要闻</string>
+    <string name="headline_news">资讯</string>
+    <string name="headline_image">图片</string>
+    <string name="headline_book">书籍</string>
+    <string name="headline_topic">专题</string>
+    <string name="headline_topic_related">相关资讯</string>
+    <string name="headline_detail">详情</string>
+    <!-- 视频 -->
+    <string name="video_tital">视频</string>
+    <!-- 设置 -->
+    <string name="setting">设置</string>
+    <string name="setting_push">推送消息</string>
+    <string name="setting_net">蜂窝网络提醒</string>
+    <string name="setting_clear">清除缓存</string>
+    <string name="setting_clear_message">您确定要清除缓存吗？</string>
+    <string name="setting_clear_begin">正在清理缓存...</string>
+    <string name="setting_clear_finish">成功清除缓存</string>
+    <string name="setting_version">版本</string>
+    <string name="setting_about">关于</string>
+    <string name="setting_new">NEW</string>
+
+</resources>

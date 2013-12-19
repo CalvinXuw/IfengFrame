@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- 通用字体大小 -->
+    <dimen name="font_title">20sp</dimen>
+    <dimen name="font_slidebar">16sp</dimen>
+
+    <!-- 列表项字号 -->
+    <dimen name="font_list_title">16sp</dimen>
+    <dimen name="font_list_subtitle">15sp</dimen>
+    <dimen name="font_list_tag">12sp</dimen>
+    <dimen name="font_list_location">13sp</dimen>
+    <dimen name="font_list_author">13sp</dimen>
+    <dimen name="font_list_desc_little">13sp</dimen>
+
+    <!-- 要闻字体大小 -->
+    <dimen name="font_headline_news_title">16sp</dimen>
+    <dimen name="font_headline_news_tagging">12sp</dimen>
+    <dimen name="font_headline_news_topic_content">15sp</dimen>
+    <dimen name="font_headline_news_topic_subtitle">15sp</dimen>
+
+    <!-- 视频播放 -->
+    <dimen name="font_mediaplay_time">14dip</dimen>
+
+    <!-- 积分详情 -->
+    <dimen name="font_points_exchangehint_little">13dip</dimen>
+
+    <!-- 俱乐部详情 -->
+    <dimen name="font_club_info_little">13dip</dimen>
+
+    <!-- 特惠商盟详情 -->
+    <dimen name="font_discount_connect">13sp</dimen>
+
+</resources>

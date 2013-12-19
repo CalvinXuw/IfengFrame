@@ -1,0 +1,91 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ifeng.android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- 此文件包含了需要在manifest添加的服务、provider、以及第三方api配置 -->
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <application>
+
+        <!-- 百度定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <!-- Receiver Push -->
+        <receiver
+            android:name="com.ifeng.vshare.push.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- 开机启动事件 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- 通知到达事件 -->
+                <action android:name="com.ifeng.ipush.intent.NOTIFICATION_RECEIVED" />
+                <!-- 通知打开事件 -->
+                <action android:name="com.ifeng.ipush.intent.NOTIFICATION_OPENED" />
+                <!-- 消息到达事件 -->
+                <action android:name="com.ifeng.ipush.intent.ACTION_MESSAGE_RECEIVED" />
+                <!-- 应用包名 -->
+                <category android:name="com.ifeng.vshare" />
+            </intent-filter>
+        </receiver>
+
+        <!-- iPush_Core -->
+        <service
+            android:name="com.ifeng.ipush.client.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+        <service
+            android:name="com.ifeng.ipush.client.service.EventService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <receiver
+            android:name="com.ifeng.ipush.client.receiver.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+</manifest>

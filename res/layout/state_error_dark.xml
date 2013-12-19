@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_state_dark"
+    android:gravity="center" >
+
+    <View
+        android:layout_width="18dip"
+        android:layout_height="18dip"
+        android:background="@drawable/image_state_error_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="@string/request_state_error"
+        android:textColor="@color/font_list_desc"
+        android:textSize="@dimen/font_list_subtitle" />
+
+</LinearLayout>

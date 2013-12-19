@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="65dip"
+    android:layout_height="35dip"
+    android:gravity="center" >
+
+    <View
+        android:layout_width="65dip"
+        android:layout_height="35dip"
+        android:background="@drawable/btn_blue" />
+
+    <ProgressBar
+        android:id="@+id/progress_nav_location"
+        android:layout_width="19dip"
+        android:layout_height="19dip"
+        android:layout_centerInParent="true"
+        android:indeterminate="false"
+        android:indeterminateDrawable="@drawable/progress_listview" />
+
+    <TextView
+        android:id="@+id/text_nav_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/font_list_cover"
+        android:textSize="@dimen/font_list_subtitle" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<com.ifeng.util.ui.NavgationbarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navgationbar"
+    android:layout_width="fill_parent"
+    android:layout_height="48dip"
+    android:background="@color/background_navigation" >
+
+    <FrameLayout
+        android:id="@+id/layout_nav_item_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip" />
+
+    <FrameLayout
+        android:id="@+id/layout_nav_item_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <com.ifeng.util.ui.FocusTextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxWidth="250dip"
+            android:singleLine="true"
+            android:textColor="@color/font_title"
+            android:textSize="@dimen/font_title"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_nav_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip" />
+
+    <View
+        android:id="@+id/divider_navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background_navigation_divider" />
+
+</com.ifeng.util.ui.NavgationbarView>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_listitem_nor"
+    android:orientation="vertical"
+    android:paddingBottom="5dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="5dip" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_discount_rectangle"
+            android:orientation="vertical" >
+
+            <!-- 推送 -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/setting_push"
+                    android:textColor="@color/font_list_title"
+                    android:textSize="@dimen/font_list_title" />
+
+                <com.ifeng.util.ui.SwitchButton
+                    android:id="@+id/switch_setting_push"
+                    android:layout_width="70dip"
+                    android:layout_height="25dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:background="@color/setting_switch_background" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/divider" />
+
+            <!-- 网络 -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/setting_net"
+                    android:textColor="@color/font_list_title"
+                    android:textSize="@dimen/font_list_title" />
+
+                <com.ifeng.util.ui.SwitchButton
+                    android:id="@+id/switch_setting_network"
+                    android:layout_width="70dip"
+                    android:layout_height="25dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:background="@color/setting_switch_background" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/divider" />
+
+            <!-- 缓存 -->
+
+            <RelativeLayout
+                android:id="@+id/btn_setting_clearcache"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/background_settingitem" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/setting_clear"
+                    android:textColor="@color/font_list_title"
+                    android:textSize="@dimen/font_list_title" />
+
+                <TextView
+                    android:id="@+id/text_setting_cachesize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:textColor="@color/font_list_tag"
+                    android:textSize="@dimen/font_list_desc_little" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/divider" />
+            <!-- 版本 -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dip" >
+
+                <TextView
+                    android:id="@+id/text_setting_version_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/setting_version"
+                    android:textColor="@color/font_list_title"
+                    android:textSize="@dimen/font_list_title" />
+
+                <TextView
+                    android:id="@+id/text_setting_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:textColor="@color/font_list_tag"
+                    android:textSize="@dimen/font_list_desc_little" />
+
+                <Button
+                    android:id="@+id/btn_setting_update"
+                    android:layout_width="50dip"
+                    android:layout_height="30dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/btn_blue"
+                    android:text="@string/update_update"
+                    android:textColor="@color/font_list_cover"
+                    android:textSize="@dimen/font_list_subtitle"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/text_setting_new"
+                    android:layout_width="30dip"
+                    android:layout_height="15dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_toRightOf="@+id/text_setting_version_label"
+                    android:background="@drawable/background_setting_new_rectangle"
+                    android:gravity="center"
+                    android:text="@string/setting_new"
+                    android:textColor="@color/font_list_cover"
+                    android:textSize="10dip"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/divider" />
+            <!-- 关于 -->
+
+            <RelativeLayout
+                android:id="@+id/btn_setting_about"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/background_settingitem" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:text="@string/setting_about"
+                    android:textColor="@color/font_list_title"
+                    android:textSize="@dimen/font_list_title" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

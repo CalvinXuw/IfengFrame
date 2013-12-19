@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 颜色 -->
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+
+    <!-- 状态页 -->
+    <color name="background_state_dark">#202020</color>
+    <color name="background_state_light">#f7f7f7</color>
+
+    <!-- 设置 -->
+    <color name="setting_new">#c70909</color>
+    <color name="setting_switch_background">#c2c7cb</color>
+    <color name="setting_switch_switcher">#0970c7</color>
+    <color name="setting_switch_switcher_text">#FFFFFF</color>
+    <color name="font_about">#666666</color>
+
+    <!-- 通用颜色 -->
+    <color name="font_title">#3f3f3f</color>
+    <color name="background_navigation">#e7e7e7</color>
+    <color name="background_navigation_dark">#292929</color>
+    <color name="background_navigation_divider">#d2d2d2</color>
+    <color name="background_navigation_divider_dark">#323232</color>
+    <color name="btn_blue_act">#005195</color>
+    <color name="btn_blue_nor">#0970c7</color>
+    <color name="btn_orange_act">#f76e00</color>
+    <color name="btn_orange_nor">#f79100</color>
+    <color name="btn_disable">#999999</color>
+    <color name="section_split">#d2d2d2</color>
+
+    <!-- 滑块颜色 -->
+    <color name="font_slidebar_nag">#72b6f0</color>
+    <color name="font_slidebar_pos">#ffffff</color>
+    <color name="font_slidebar_video_nag">#999999</color>
+    <color name="font_slidebar_video_pos">#0970c7</color>
+
+    <!-- 专题颜色 -->
+    <color name="font_topic_title">#222222</color>
+    <color name="font_topic_desc">#444444</color>
+    <color name="font_topic_section">#0970c7</color>
+
+    <!-- 列表项颜色 -->
+    <color name="divider">#dbdbdb</color>
+    <color name="font_list_title">#222222</color>
+    <color name="font_list_desc">#444444</color>
+    <color name="font_list_tag">#999999</color>
+    <color name="font_list_header">#FFFFFF</color>
+    <color name="font_list_cover">#FFFFFF</color>
+    <color name="font_list_location">#0970c7</color>
+    <color name="background_listitem_nor">#f7f7f7</color>
+    <color name="background_listitem_act">#dbdbdb</color>
+    <color name="background_fragment">#ffffff</color>
+
+    <!-- 城市选取 -->
+    <color name="font_location_section">#0970c7</color>
+
+    <!-- 资讯列表 -->
+    <color name="background_source_tips_topic">#c70909</color>
+    <color name="background_source_tips_video">#0689f8</color>
+    <color name="font_source_tips_topic">#FFFFFF</color>
+    <color name="font_source_tips_video">#FFFFFF</color>
+
+    <!-- 评论 -->
+    <color name="background_btn_commentbar">#0970c7</color>
+    <color name="font_comment_section">#0970c7</color>
+
+    <!-- 书籍列表 -->
+    <color name="font_books_section_localbook">#593338</color>
+    <color name="font_books_section_remotebook">#ff6b00</color>
+
+    <!-- 图片详情 -->
+    <color name="font_photo_detail_title">#f7f7f7</color>
+    <color name="font_photo_detail_message">#dbdbdb</color>
+    <color name="background_photodetail">#202020</color>
+
+    <!-- 视频播放 -->
+    <color name="font_mediaplay_title">#FFFFFF</color>
+    <color name="font_mediaplay_time">#dbdbdb</color>
+
+    <!-- 大讲堂 -->
+    <color name="background_btn_lecture_left">#f79100</color>
+    <color name="background_btn_lecture_right">#0970c7</color>
+    <color name="pageindex_slider">#0970c7</color>
+
+    <!-- 积分详情 -->
+    <color name="font_point_hint">#d50000</color>
+    <color name="font_point_desc">#0970c7</color>
+
+    <!-- 俱乐部列表 -->
+    <color name="font_club_section_local">#0970c7</color>
+    <color name="font_club_section_country">#f99620</color>
+    <color name="font_club_section_detail">#0970c7</color>
+
+</resources>
